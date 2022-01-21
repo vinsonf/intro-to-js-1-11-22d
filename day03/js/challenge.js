@@ -3,14 +3,14 @@
 // Reverse your user’s name
 // alert the reversed string
 
-// const firstName  = prompt('what is your firt name?');
-// console.log(firstName);
-// const nameArray = firstName.split('');
-// console.log(nameArray);
-// const reverseName = nameArray.reverse();
-// console.log(reverseName);
-// const reversedName = reverseName.join('');
-// console.log(reversedName);
+const firstName  = prompt('what is your firt name?');
+console.log(firstName);
+const nameArray = firstName.split('');
+console.log(nameArray);
+const reverseName = nameArray.reverse();
+console.log(reverseName);
+const reversedName = reverseName.join('');
+console.log(reversedName);
 
 
 
