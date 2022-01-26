@@ -1,6 +1,6 @@
 let activePlayer = undefined;
-let stars = 5;
-let coins = 10;
+const stars = 5;
+const coins = 10;
 
 
 function getButton(num) {
