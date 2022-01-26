@@ -17,6 +17,20 @@ let getANumber = function(num1) {
 
 let myANumber = getANumber(8);
 
+
+// arrow functions
+
+let myArrowFunction = (num1, num2) => {
+    console.log(num1, num2);
+    return num1 + num2;
+};
+
+['a', 'b', 'c'].forEach( (item) => {
+    console.log(item);
+    return item;
+});
+
+
 // difference between function declaration and function expression
 // function declaration
 // hoisting
