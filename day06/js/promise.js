@@ -30,7 +30,7 @@ function getPokemon(name) {
     });
 }
 
-getPokemon('mewtwo');
+getPokemon('mewtwo')
 
 
 
