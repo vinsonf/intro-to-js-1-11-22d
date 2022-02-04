@@ -1,6 +1,6 @@
 class Player {
 
-    constructor(up, down, left, right) {
+    constructor(up, down, left, right, color) {
      
         this.left = 0;
         this.top = 0;
@@ -15,9 +15,9 @@ class Player {
 
 
         this.element = document.createElement('div');
-        this.element.style.width = '100px';
-        this.element.style.height = '100px';
-        this.element.style.backgroundColor = 'red';
+        this.element.style.width = '50px';
+        this.element.style.height = '50px';
+        this.element.style.backgroundColor = color;
         this.element.style.borderRadius = '50%';
 
 
@@ -86,8 +86,8 @@ class Player {
 
 }
 
-const myPlayer = new Player('KeyW', 'KeyS', 'KeyA', 'KeyD');
-const player2 = new Player('KeyI', 'KeyK', 'KeyJ', 'KeyL');
+const myPlayer = new Player('KeyW', 'KeyS', 'KeyA', 'KeyD', 'red');
+const player2 = new Player('KeyI', 'KeyK', 'KeyJ', 'KeyL', 'blue');
 
 function gameLoop() {
    myPlayer.makeMove();
