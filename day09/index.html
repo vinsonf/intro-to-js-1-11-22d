@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script defer src="js/day8-review.js"></script>
+    <script defer src="js/forms.js"></script>
 </head>
-<body>
-    
+
+<body> 
+    <!-- Named inputs -->
+    <form name="signup">
+        <input type="text" name="username" placeholder="Username"> <br>
+        <input type="email" name="email" placeholder="Email"> <br>
+        <input type="password" name="password" placeholder="Password"> <br>
+        <input type="date" name="date" placeholder="Birthday"> <br>
+        <input type="color" name="theme" placeholder="Theme Color"><br>
+        <label>Receive Email</label>
+        <input type="file">
+        <input type="radio" name="receive-email" value="yes"> Yes
+        <input type="radio" name="receive-email" value="no"> No <br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <form >
+        <input type="text" placeholder="Username"> <br>
+        <input type="email" placeholder="Email"> <br>
+        <input type="password" placeholder="Password"> <br>
+        <input type="date" placeholder="Birthday"> <br>
+        <input type="color" placeholder="Theme Color"><br>
+        <label>Receive Email</label>
+        <input type="radio" name="receive-email" value="yes"> Yes
+        <input type="radio" name="receive-email" value="no"> No <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
+
 </html>
