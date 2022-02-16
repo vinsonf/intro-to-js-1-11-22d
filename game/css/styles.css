@@ -1,0 +1,28 @@
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 200px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.suit {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bottom-text {
+    text-align: right;
+   
+}
+
+.red {
+    color: red;
+}
